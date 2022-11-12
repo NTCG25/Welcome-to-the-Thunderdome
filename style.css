@@ -12,7 +12,7 @@ div {
 }
 
 div:hover {
-    color: green;
+    color: red;
     
 }
 
@@ -23,12 +23,26 @@ span {
     color: red;
 }
 
-a {
+span a{
     color: blue;
 }
 
 body {
     background-image: url(pictures/Welcome\ to\ the\ Thunderdome.jpg);
+    background-repeat: no-repeat;
+    overflow: hidden;
 }
 
 
+body header {
+    font-size: 3rem ;
+    color:red;
+    position: relative;
+    left: 34rem;
+    top: 4rem;
+}
+
+body header a:hover {
+    color: blue;
+    transition: 3s;
+}
