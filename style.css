@@ -1,0 +1,35 @@
+div {
+    display: inline-block;
+    padding: 20px;
+    margin: 20px;
+    border: 4px transparent;
+    border-radius: 12px 12px 12px;
+    position: relative;
+    left: 76rem;
+    font-size: 26px;
+    font-family: Times;
+    color: blue;
+}
+
+div:hover {
+    color: green;
+    
+}
+
+span {
+    position: relative;
+    right: 25rem;
+    font-size: 26px;
+    color: red;
+}
+
+a {
+    color: blue;
+}
+
+body {
+    background-image: url(pictures/Welcome\ to\ the\ Thunderdome.jpg);
+}
+
+/* CSS 201 #5 */ 
+
